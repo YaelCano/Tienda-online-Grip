@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css">
     <title>Tienda Online</title>
 </head>
-<header>  
+<header>
     <nav id="nav">
         <div class="container">
             <a class="navbar-brand" href="#">foolds</a>
@@ -35,17 +36,18 @@
 </header>
 
 <main class="main-content">
-    <div class="row align-items-center" id="home">
+    <div class="row-center" id="home">
         <div class="columna" id="sec1">
             <h1>Full Website</h1>
             <p>Food the</p>
             <p>Most Precious things</p>
-            <button href="#menu"id="botonmenu">Today´s Menu</button>
+            <button href="#menu" id="botonmenu">Today´s Menu</button>
         </div>
-        <div class="columna" id="sec2">
+        <div class="imagen">
             <img src="image/home.png" class="img-fluid rounded" alt="hamburguesa" id="s1c2img">
         </div>
     </div>
+
     <div class="row about" id="about_us_row">
         <div class="col-md-6 col-sm-12" id="s2c1">
             <img src="image/about.png" class="img-fluid rounded" alt="hamburguesa" id="s2c1img">
@@ -53,27 +55,23 @@
         <div class="columna" id="s2c2">
             <h6>About Us</h6>
             <h3>We speak the good food language</h3>
-            <p>It is a long established fact that a 
-                be distracted by the readable content 
+            <p>It is a long established fact that a
+                be distracted by the readable content
                 looking at its layout. The point of</p>
-            <button type="button" class="btn" id="botonmenu">Learn More</button>
+            <button class="btn" id="botonmenu">Learn More</button>
         </div>
     </div>
     <div class="container menu" id="menu">
         <div class="row">
             <div class="col">
-            <h5>Food Menu</h5>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-            <h2>Fresh taste and grat price</h2>
+                <h5>Food Menu</h5>
+                <h2>Fresh taste and grat price</h2>
             </div>
         </div>
         <div class="row text-center" id="prod">
             <div class="columna" id="prod">
                 <div class="cuadro">
-                    <img src="image/food1.png" id="Boxcomi" alt="burrito">
+                    <img src="image/food1.png" id="Boxcomi" alt="comida">
                     <h5>Chicken Burger</h5>
                     <p>Tasty Food</p>
                     <p id="precio">$11.00</p>
@@ -81,7 +79,7 @@
             </div>
             <div class="columna" id="prod">
                 <div class="cuadro">
-                    <img src="image/food2.png" id="Boxcomi" alt="burrito">
+                    <img src="image/food2.png" id="Boxcomi" alt="comida">
                     <h5>Special Beef Burger</h5>
                     <p>Tasty Food</p>
                     <p id="precio">$11.00</p>
@@ -89,7 +87,7 @@
             </div>
             <div class="columna" id="prod">
                 <div class="cuadro">
-                    <img src="image/food3.png" id="Boxcomi" alt="burrito">
+                    <img src="image/food3.png" id="Boxcomi" alt="comida">
                     <h5>Chicken Fry Pack</h5>
                     <p>Tasty Food</p>
                     <p id="precio">$11.00</p>
@@ -97,24 +95,20 @@
             </div>
         </div>
     </div>
-    <div class="container text-center" id="menu">
+    <div class="container-servicio" id="Servi">
         <div class="row">
-            <div class="col">
-            <h5>Service</h5>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-            <h2>We provide best food services</h2>
-            </div>
         </div>
         <div class="row text-center" id="prod1">
+            <div class="col1">
+                <h5>Service</h5>
+                <h2>We provide best food services</h2>
+            </div>
             <div class="col-md-4 col-sm-12" id="prod">
                 <div class="cuadro1">
                     <img src="image/s1.png" id="Boxcomi" alt="img1">
                     <h5>Order</h5>
-                    <p>It is a long established  
-                        be distracted by the readable 
+                    <p>It is a long established
+                        be distracted by the readable
                         looking at its layout. </p>
                 </div>
             </div>
@@ -122,8 +116,8 @@
                 <div class="cuadro1">
                     <img src="image/s2.png" id="Boxcomi" alt="img2">
                     <h5>Shipping</h5>
-                    <p>It is a long established  
-                        be distracted by the readable 
+                    <p>It is a long established
+                        be distracted by the readable
                         looking at its layout. </p>
                 </div>
             </div>
@@ -131,8 +125,8 @@
                 <div class="cuadro1">
                     <img src="image/s3.png" id="Boxcomi" alt="img3">
                     <h5>Dellvered</h5>
-                    <p>It is a long established  
-                        be distracted by the readable 
+                    <p>It is a long established
+                        be distracted by the readable
                         looking at its layout. </p>
                 </div>
             </div>
@@ -178,26 +172,31 @@
             <div id="boxes">
                 <div id="circulo">
                     <a href="https://www.whatsapp.com/?lang=es_LA">
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAhVJREFUSEvN1UnITnEUBvDfx8JMdoREiChThg1JmVI2hqIUiTInZcGGYiE2xpQSxUKxUJJZSCFiY0ghsjKkKGTu6Lxfb2/3vq/NW99Z3e7//M9zz3Oe89wWTY6WJtfXJgDGYgEmYwh+4Rbu4AIe1GOhXgf9cBgz8DkLPcE3jMZI9MBubMH3IqAygPjSa+iADTiOPwUF1ibAC8zDo9qcIoBeuJdUTMXzBkIYgTNoh+H4Up1fBHAO4zEOL9EH3fC0DlCA3McRrKwHMAk3sCyTh2U37zCghKZKvc3Ygem4VHlZ28E+LEVP/MAm7MzkGPbFOl10SjEEXXPLAB7iNeZkwiocyOcAPtpgHnE/YlQZwBvEDFZkQu+cw0eEbH82ADiEReheBvAsh7WwqlBIcS8OYk2DOQSd69GxDOB88j+h5ktP5jYHvwHYOekK1ZxCdBgReWMwuAxgew62L95WgbTHHqzGJ/55WEg3YlfeiT14j9NYXgYwMBdrG7YW8D0t6RqaZ78xM2UZ3J9Ia2lVW9GihRLC0MLkyiJoiEG+ShH0x12EV02pvlQL0CX5jH3Y2EAxleMofjkBY/tD5q1RCzAbZ7EY0X5s5W0cw9cawJjTEqxLZYVvNTS7/TnISq24MCit+HrSEa4aXjUxk27m9heaYm0H4SGReBVX8AFdMR+zEPING3mcnhUSDe5Lo038Mv9z1sVpTe/gL9I6cRkc/rZLAAAAAElFTkSuQmCC"/>
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAhVJREFUSEvN1UnITnEUBvDfx8JMdoREiChThg1JmVI2hqIUiTInZcGGYiE2xpQSxUKxUJJZSCFiY0ghsjKkKGTu6Lxfb2/3vq/NW99Z3e7//M9zz3Oe89wWTY6WJtfXJgDGYgEmYwh+4Rbu4AIe1GOhXgf9cBgz8DkLPcE3jMZI9MBubMH3IqAygPjSa+iADTiOPwUF1ibAC8zDo9qcIoBeuJdUTMXzBkIYgTNoh+H4Up1fBHAO4zEOL9EH3fC0DlCA3McRrKwHMAk3sCyTh2U37zCghKZKvc3Ygem4VHlZ28E+LEVP/MAm7MzkGPbFOl10SjEEXXPLAB7iNeZkwiocyOcAPtpgHnE/YlQZwBvEDFZkQu+cw0eEbH82ADiEReheBvAsh7WwqlBIcS8OYk2DOQSd69GxDOB88j+h5ktP5jYHvwHYOekK1ZxCdBgReWMwuAxgew62L95WgbTHHqzGJ/55WEg3YlfeiT14j9NYXgYwMBdrG7YW8D0t6RqaZ78xM2UZ3J9Ia2lVW9GihRLC0MLkyiJoiEG+ShH0x12EV02pvlQL0CX5jH3Y2EAxleMofjkBY/tD5q1RCzAbZ7EY0X5s5W0cw9cawJjTEqxLZYVvNTS7/TnISq24MCit+HrSEa4aXjUxk27m9heaYm0H4SGReBVX8AFdMR+zEPING3mcnhUSDe5Lo038Mv9z1sVpTe/gL9I6cRkc/rZLAAAAAElFTkSuQmCC" />
                     </a>
                 </div>
                 <div id="circulo">
                     <a href="https://es-la.facebook.com/">
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAbpJREFUSEu11U+IjlEUx/HPlELGQjZCmo3FFMmSlCyEpCGzENlQyEImJQv5kyzUCAtmahY2ykLUTP6syELWlv6WCBsLiymK0Kn76un2PPd5X8zd3XvO+X3vufeec/vM8OibYX1tgNnYic1YhQH8wls8wwPcwfemjZYAW3AtiZYSfY1DeFjn1AQ4g9M9HN9PHMfFPKYOcBanehCvuh7FlepCDtiGqYL4ZxzDY7xLfqNpLaaRyXo86WhUAf14hUUNgB9YgReZvQoIU9hXdi6+CoiLGivs/iZ2V+wbsRabsCaL247JWKsC7mJrAXAS55N9GLcKvhM4kAM+YHEhaASXkz0u81LBN2pkdQ74ijn/CfAFC3LANOZlgE8tWYX7I2zI4kJrfg54ieWZ40csaamJ91ia+TzHYA64gT09ZhC96lvNBq5jXw7YhXiKTaOXS659prPwBssaCN0C/hxPnkHMo4Pe/wdAtPJ1eNrRqGt20ayO1EC6yeBc3ijrALE23qnECqgNcAEn8o2VPpy9qVoXpqAmQHSAg7hXd7RtX+Zc7MeO9DVeTSKHMYTbiCf5V19mS311Z27LoDuVgtdvdh5WGZl8sDgAAAAASUVORK5CYII="/>
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAbpJREFUSEu11U+IjlEUx/HPlELGQjZCmo3FFMmSlCyEpCGzENlQyEImJQv5kyzUCAtmahY2ykLUTP6syELWlv6WCBsLiymK0Kn76un2PPd5X8zd3XvO+X3vufeec/vM8OibYX1tgNnYic1YhQH8wls8wwPcwfemjZYAW3AtiZYSfY1DeFjn1AQ4g9M9HN9PHMfFPKYOcBanehCvuh7FlepCDtiGqYL4ZxzDY7xLfqNpLaaRyXo86WhUAf14hUUNgB9YgReZvQoIU9hXdi6+CoiLGivs/iZ2V+wbsRabsCaL247JWKsC7mJrAXAS55N9GLcKvhM4kAM+YHEhaASXkz0u81LBN2pkdQ74ijn/CfAFC3LANOZlgE8tWYX7I2zI4kJrfg54ieWZ40csaamJ91ia+TzHYA64gT09ZhC96lvNBq5jXw7YhXiKTaOXS659prPwBssaCN0C/hxPnkHMo4Pe/wdAtPJ1eNrRqGt20ayO1EC6yeBc3ijrALE23qnECqgNcAEn8o2VPpy9qVoXpqAmQHSAg7hXd7RtX+Zc7MeO9DVeTSKHMYTbiCf5V19mS311Z27LoDuVgtdvdh5WGZl8sDgAAAAASUVORK5CYII=" />
                     </a>
                 </div>
                 <div id="circulo">
                     <a href="https://www.instagram.com/">
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAhdJREFUSEvF1UvIT1sYBvDfhyLCRGfkVigkOSeShAFSSnLJ3cQEZ6DIpchAiVxCRgYMJLdcowwwk5JIyu10otMpE0Zk5N6j9a/d7r/7vtTXt+rff++13vU+z/s871q7QzePjm7Or8cARmELZmACjUR+4Bnu4Rj+rSvSroINOI4++B8P8KpByr8wCcPwBX/jZDW2DjC5JHyBRXjdRY9S5Q0MxxQ8ae2rA1zFfIzFf11IvhZ78AHr8AjXsaQJIEnDPiDV0QtzMR7f8BJ3MQe3i5QjCsAQjGwC+Iiz2FjJHn0vYloNNMaewjv8gdOIAvMwoAngOw5jewkI8/uF0VbcQe9SzcHSNTORbsoIkaUl5tdE3YME7sfOsmFZ2ZT/S7UKluMCFhaDs3wemQ+xRoAw21HW87wNA/GpBhCt32Mvdpe1yLuqSrxdBTkwm8uGA0WuwYg/1dEC2IddZeEM1nQGcLSc4uxJu10uul6pAYRpGFclyvuKzjyoVtAyOS0YqWJyTnja8xD+wayayQHs1+RBdA6L9RW2Q4uZ09u06Uq8rcynTWcjkrY1OZdVfu0OWpgtwGfcws0K81a+xxiEMU0AYb8Y47p4VVSLmoinOIfVTQB/IiwSGIPf1GRpek3ya4hXU0uOthJlsnVdx+CHRZLMf8Vz9MXoYnbm+yO3cNY34USVRdMX7Xc+OEfaXe899snsovSdh3V7BT8BwnpzGXb17ZMAAAAASUVORK5CYII="/>
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAhdJREFUSEvF1UvIT1sYBvDfhyLCRGfkVigkOSeShAFSSnLJ3cQEZ6DIpchAiVxCRgYMJLdcowwwk5JIyu10otMpE0Zk5N6j9a/d7r/7vtTXt+rff++13vU+z/s871q7QzePjm7Or8cARmELZmACjUR+4Bnu4Rj+rSvSroINOI4++B8P8KpByr8wCcPwBX/jZDW2DjC5JHyBRXjdRY9S5Q0MxxQ8ae2rA1zFfIzFf11IvhZ78AHr8AjXsaQJIEnDPiDV0QtzMR7f8BJ3MQe3i5QjCsAQjGwC+Iiz2FjJHn0vYloNNMaewjv8gdOIAvMwoAngOw5jewkI8/uF0VbcQe9SzcHSNTORbsoIkaUl5tdE3YME7sfOsmFZ2ZT/S7UKluMCFhaDs3wemQ+xRoAw21HW87wNA/GpBhCt32Mvdpe1yLuqSrxdBTkwm8uGA0WuwYg/1dEC2IddZeEM1nQGcLSc4uxJu10uul6pAYRpGFclyvuKzjyoVtAyOS0YqWJyTnja8xD+wayayQHs1+RBdA6L9RW2Q4uZ09u06Uq8rcynTWcjkrY1OZdVfu0OWpgtwGfcws0K81a+xxiEMU0AYb8Y47p4VVSLmoinOIfVTQB/IiwSGIPf1GRpek3ya4hXU0uOthJlsnVdx+CHRZLMf8Vz9MXoYnbm+yO3cNY34USVRdMX7Xc+OEfaXe899snsovSdh3V7BT8BwnpzGXb17ZMAAAAASUVORK5CYII=" />
                     </a>
                 </div>
                 <div id="circulo">
                     <a href="https://github.com/">
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAh5JREFUSEu11UmojmEUB/DfFdmQBZIsUeYiWShFlLAxlCFFCZlSkrFEMoQSyRB2hJJhw46FBUpExiJZWBiSBSlEOrfz1Xvf+w2vxT2b73ue53/O/znnOef/tulia+vi+FoR9MBszMBoDKXd5x2e4Cau4HejizYjmIaTGNIiy7dYiVv1cI0ItmB/3rZKFf9iKw6VwfUINuNAlah1MBtwpLhfJpiSqcZ+1HcZVmMHuuFN1ns44tb7cALHMC/3JuFujaRI0BPPMTgPd2Nn/o93+Ihvue6FgXid6+3Ym/9fYAz+xLpIsACXCulFqpFyFTuITQXgrKxAB4LzWFwATcS9KtHzxo8LFz6OdeUMojwjCmmOrBi8BnuIcbl4gAllgk/on4DrmPOfBBewKH2+oF+Z4AMGJOA2pv4nwQ3MTJ/v6F0meISxCYhu6dtMAkrkISmf0Sf3XyFaucMjn8HyguMKnK2YRWBPF7DnsKRMEDW/iq+IFKPPY/xDj340IIp5WJsDF4NYs/m4XCaImYhOGoTpWIWl+JU9vRA/M0KU5FriupfIX2JUTnUnuZ6b8vse43PwJmcWa0qBLiJIyxaViC5st3pidxTrU3/2NHmDXQUpqcEOY2PRp5Fch7iFFt3BUzzDqRJZnAeuZqHCleS65hCqGHoU0xnyHQ9etFDSbbifmhW/nazVJzPO45MZMh2ZFG1Y9no8dkNrRdDMt9JZlxP8A6W4Yxl3/dANAAAAAElFTkSuQmCC"/>
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAh5JREFUSEu11UmojmEUB/DfFdmQBZIsUeYiWShFlLAxlCFFCZlSkrFEMoQSyRB2hJJhw46FBUpExiJZWBiSBSlEOrfz1Xvf+w2vxT2b73ue53/O/znnOef/tulia+vi+FoR9MBszMBoDKXd5x2e4Cau4HejizYjmIaTGNIiy7dYiVv1cI0ItmB/3rZKFf9iKw6VwfUINuNAlah1MBtwpLhfJpiSqcZ+1HcZVmMHuuFN1ns44tb7cALHMC/3JuFujaRI0BPPMTgPd2Nn/o93+Ihvue6FgXid6+3Ym/9fYAz+xLpIsACXCulFqpFyFTuITQXgrKxAB4LzWFwATcS9KtHzxo8LFz6OdeUMojwjCmmOrBi8BnuIcbl4gAllgk/on4DrmPOfBBewKH2+oF+Z4AMGJOA2pv4nwQ3MTJ/v6F0meISxCYhu6dtMAkrkISmf0Sf3XyFaucMjn8HyguMKnK2YRWBPF7DnsKRMEDW/iq+IFKPPY/xDj340IIp5WJsDF4NYs/m4XCaImYhOGoTpWIWl+JU9vRA/M0KU5FriupfIX2JUTnUnuZ6b8vse43PwJmcWa0qBLiJIyxaViC5st3pidxTrU3/2NHmDXQUpqcEOY2PRp5Fch7iFFt3BUzzDqRJZnAeuZqHCleS65hCqGHoU0xnyHQ9etFDSbbifmhW/nazVJzPO45MZMh2ZFG1Y9no8dkNrRdDMt9JZlxP8A6W4Yxl3/dANAAAAAElFTkSuQmCC" />
                     </a>
                 </div>
             </div>
         </div>
-    </footer>
+</footer>
 </body>
+
 </html>

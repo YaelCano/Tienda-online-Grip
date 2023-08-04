@@ -3,13 +3,40 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
     margin: 0;
     padding: 0;
 }
+/* generales */
+img{
+    width: 100%;
+}
+/* header */
+#home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid #ff702a;
 
+}
+#sec1{
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: start;
+    font-size:  50px;
+}
+.imagen{
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: auto;
+}
+
+/* footer */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1.4;
     background-color: #1e1d2b;
     color: white;
     height: 100%;
+    width: 100%;
 }
 
 
@@ -18,9 +45,32 @@ body {
     color: #fff;
     padding: 10px;
 }
+/* Section styles */
+
+
+#sec2 {
+    flex: 0 0 45%;
+    max-width: 45%;
+}
+
+#s2c2, h6{
+    margin-top: 30px;
+    font-size: 20px;
+}
 #prod{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    display: flex;
+    justify-content: center;
+    grid-row: span;
+
+
+}
+.boxcomid{
+    width: 300px;
+    height: 300px;
+}
+#Boxcomi{
+    width: 80%;
+    
 }
 .row {
     display: flex;
@@ -28,26 +78,8 @@ body {
     justify-content: space-around;
 }
 
-/* Image styles */
-#s1c2img {
-    display: flex;
-    width: 400px;
-    height: 400px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
 
-/* Section styles */
-#sec1 {
-    flex: 0 0 100%;
-    max-width: 100%;
-    text-align: center;
-}
 
-#sec2 {
-    flex: 0 0 45%;
-    max-width: 45%;
-}
 
 /* Responsive styles */
 @media screen and (max-width: 768px) {
@@ -97,7 +129,7 @@ body {
 }
 
 #navbarToggleBtn:hover {
-    background-color: #555;
+    background-color: aqua;
 }
 
 .navbar-toggler-icon {
@@ -137,24 +169,26 @@ body {
 
 
 .main-content {
-    padding: 20px;
+    padding: 30px;
 }
 
 
 .footer {
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    padding: 10px;
     text-decoration: none;
 }
 
 .footer-links {
     flex: 1;
+    text-decoration: none;
 }
 
 .footer h5 {
     font-size: 20px;
     margin-bottom: 10px;
+    text-decoration: none;
 }
 
 .footer ul {
@@ -177,3 +211,38 @@ body {
     }
 }
 
+/*Bordes*/
+
+#nav{
+    border: 1px solid red;
+    
+}
+.main-content{
+    border: 1px solid green;
+}
+#home > #sec1,#sec2 {
+    border: 1px solid hotpink;
+}
+#menu{
+    border: 1px solid yellow;
+}
+
+#about_us_row{
+    border: 1px solid lime;
+}
+footer{
+    border: 1px solid blue;
+}
+#botonmenu{
+    height: 10%;
+    width: 25%;
+    background-color: #ff702a;
+    color: white;
+    margin: 10px;
+}
+#prod1{
+    border: 1px solid brown;
+}
+#servi{
+    border: 1px solid cadetblue;
+}
